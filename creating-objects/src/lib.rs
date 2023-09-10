@@ -1,19 +1,15 @@
 use neon::prelude::*;
 
 fn get_user(mut cx: FunctionContext) -> JsResult<JsObject> {
-    // Declare an empty object
+    // Create an empty object
     let obj = cx.empty_object();
 
-    // Declare a string value
+    // Create values to store in the object
     let name = cx.string("Chigozie");
-
-    // Declare a number value
     let age = cx.number(19);
 
-    // Set the `name` field in `obj`
+    // Store these values in the object
     obj.set(&mut cx, "name", name)?;
-
-    // Set the `age` field in `obj`
     obj.set(&mut cx, "age", age)?;
     Ok(obj)
 }
