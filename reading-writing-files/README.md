@@ -1,5 +1,11 @@
 # Reading and writing files
 
+Reading and writing files is one of Rust's core features.
+
+If you're building a more data-intensive application, it is more effective to use a more powerful language like Rust. JavaScript doesn't perform well in situations that need very high performance, whereas Rust can.
+
+If you open the `src/lib.rs` file, you'll notice that file handling here is exactly the same as when you're only using Rust.
+
 ## How to run this project
 
 To run this project, there are a few things you must do first:
