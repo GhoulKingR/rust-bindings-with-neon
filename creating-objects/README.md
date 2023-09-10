@@ -35,7 +35,11 @@ To run this project, there are a few things you must do first:
 npm install
 ```
 
-These steps will help you with installing the Rust and JavaScript dependencies, as well as compiling the Rust code.
+These steps will help you with installing the Rust and JavaScript dependencies, as well as compiling the Rust code. If you just want to compile the Rust backend, run this command:
+
+```bash
+npm run build
+```
 
 When the steps are completed, run the `index.js` file in the terminal:
 
